@@ -1,5 +1,39 @@
 body {
-  border: 10px solid blue;
+  font-family: "Open Sans", sans-serif;
+  background: #F8F8FC;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 0 1.5em;
+}
+
+.hero {
+  border: 2px solid red;
+}
+
+.investCard {
+  margin-top: 52px;
+}
+.investCard__value {
+  margin-top: 52px;
+  border: 1px solid red;
+  position: absolute;
+  width: 170px;
+  height: 180px;
+  right: 10px;
+  top: 0px;
+  background: url("../images/youAreSavingYourMoneyImage.png") center no-repeat;
+  background-size: 350px;
+}
+.investCard__image {
+  margin-top: 102px;
+  border: 1px solid red;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+  background-blend-mode: multiply, normal;
+  box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
